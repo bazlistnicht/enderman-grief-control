@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.endermangrief.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EndermanEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

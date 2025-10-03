@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "endermangriefcontrol",
+  "version": "1.0.0",
+  "name": "Enderman Grief Control",
+  "description": "Stops Endermen from picking up player-placed blocks while still letting them grab natural terrain.",
+  "authors": ["cherom + ChatGPT"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.endermangrief.EndermanGriefControl"]
+  },
+  "mixins": [
+    "mixins.endermangrief.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*"
+  }
+}
